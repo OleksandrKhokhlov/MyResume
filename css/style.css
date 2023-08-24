@@ -2,17 +2,21 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+img{
+  width: 100%;
+}
 .main-section {
   display: flex;
+  justify-content: space-around;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1000px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 /* nain content section */
 .main-content-section {
-  padding: 100px 90px;
+  padding: 30px 90px;
 }
 .main-content-title {
   color: #000;
@@ -121,8 +125,7 @@ body {
 /* sidebar section */
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
-  padding: 40px 0;
+  width: 300px;
 }
 .contact-section,
 .tech-skill-section {
