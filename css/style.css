@@ -2,8 +2,15 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
-img{
+img {
   width: 100%;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 2;
 }
 .main-section {
   display: flex;
@@ -138,6 +145,14 @@ img{
   line-height: 27px;
   color: #ffffff;
   margin-bottom: 10px;
+}
+.social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.social > a {
+  display: inline-flex;
 }
 /* contact section */
 .contact-section-type {
